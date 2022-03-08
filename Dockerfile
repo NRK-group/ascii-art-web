@@ -1,13 +1,13 @@
-FROM golang:latest
+FROM golang:alpine
 
-RUN mkdir /build
-WORKDIR /build
+RUN mkdir /ascii-art-web
 
-RUN export GO111MODULE=on
-RUN cd /build && git clone https://github.com/codecplyre/ascii-art-web.git
+ADD . /ascii-art-web
 
-RUN cd /build/ascii-art-web && go build
+WORKDIR /ascii-art-web
+
+RUN go build -o main .
 
 EXPOSE 5500
 
-ENTRYPOINT [ "/build/ascii-art-web/server" ]
+CMD ["/ascii-art-web/main"]
