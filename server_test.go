@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
@@ -8,7 +10,7 @@ import (
 	"testing"
 )
 
-func TestAsciiArt(t *testing.T) {
+func TestErrorHandling(t *testing.T) {
 	testCases := []struct {
 		banner           string
 		input            string
@@ -33,7 +35,6 @@ func TestAsciiArt(t *testing.T) {
 			expectedResponse: http.StatusInternalServerError,
 		},
 	}
-
 	for _, tc := range testCases {
 		form := url.Values{}
 		form.Add("banner", tc.banner)
@@ -73,7 +74,6 @@ func TestPostEndpoint(t *testing.T) {
 		t.Errorf("Want status '%d', got '%d'", 200, resp.StatusCode)
 	}
 }
-
 func TestGetEndpoint(t *testing.T) {
 	svr := httptest.NewServer(http.HandlerFunc(Process))
 	defer svr.Close()
@@ -83,5 +83,59 @@ func TestGetEndpoint(t *testing.T) {
 	}
 	if resp.StatusCode != 200 {
 		t.Errorf("Want status '%d', got '%d'", 200, resp.StatusCode)
+	}
+}
+func ReadTestFile(arg string) []string {
+	data, err := ioutil.ReadFile(arg)
+	if err != nil {
+		// panic(err)
+		fmt.Print("lol")
+	}
+	contentString := string(data)
+	contentSplit := strings.Split(contentString, "#")
+	return contentSplit
+}
+func TestAsciiArt(t *testing.T) {
+	testCases := []string{
+		"hello",
+		"HELLO",
+		"HeLlo HuMaN",
+		"1Hello 2There",
+		"Hello\\nThere",
+		"{Hello & There #}",
+		"hello There 1 to 2!",
+		"MaD3IrA&LiSboN",
+		"1a\"#FdwHywR&/()=",
+		"{|}~",
+		"[\\]^_ 'a",
+		"RGB",
+		":;<=>?@",
+		"\\!\" #$%&'()*+,-./",
+		"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+		"abcdefghijklmnopqrstuvwxyz",
+		"nice 2 meet you",
+		"It's Working",
+	}
+	ban := []string{
+		"standard",
+		"shadow",
+		"thinkertoy",
+	}
+	filename := []string{
+		"standardoutput.txt",
+		"shadowoutput.txt",
+		"thinkertoyoutput.txt",
+	}
+	for i := range ban {
+		expectedOutput := ReadTestFile(filename[i])
+		for index, testCase := range testCases {
+			output, err := AsciiArt(testCase, ban[i]) // test the AsciiArt(input, ban) function
+			if err != nil {
+				panic(err)
+			}
+			if output != expectedOutput[index] {
+				t.Errorf("\nTest fails when given case:\n\t\"%s\","+"\nThe test should show:\n%s\nInstead it shows:\n%s", testCase, expectedOutput[index], output)
+			}
+		}
 	}
 }

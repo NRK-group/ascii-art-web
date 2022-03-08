@@ -1,0 +1,153 @@
+                 
+o        o o     
+|        | |     
+O--o o-o | | o-o 
+|  | |-' | | | | 
+o  o o-o o o o-o 
+                 
+                 
+#                            
+o  o o--o o     o      o-o  
+|  | |    |     |     o   o 
+O--O O-o  |     |     |   | 
+|  | |    |     |     o   o 
+o  o o--o O---o O---o  o-o  
+                            
+                            
+#                                                      
+o  o     o     o           o  o      o   o      o   o 
+|  |     |     |           |  |      |\ /|      |\  | 
+O--O o-o |     | o-o       O--O o  o | O |  oo  | \ | 
+|  | |-' |     | | |       |  | |  | |   | | |  |  \| 
+o  o o-o O---o o o-o       o  o o--o o   o o-o- o   o 
+                                                      
+                                                      
+#                                                         
+  0   o  o     o o            --  o-O-o o                
+ /|   |  |     | |           o  o   |   |                
+o |   O--O o-o | | o-o         /    |   O--o o-o o-o o-o 
+  |   |  | |-' | | | |        /     |   |  | |-' |   |-' 
+o-o-o o  o o-o o o o-o       o--o   o   o  o o-o o   o-o 
+                                                         
+                                                         
+#                 
+o  o     o o     
+|  |     | |     
+O--O o-o | | o-o 
+|  | |-' | | | | 
+o  o o-o o o o-o 
+                 
+                 
+                       
+o-O-o o                
+  |   |                
+  |   O--o o-o o-o o-o 
+  |   |  | |-' |   |-' 
+  o   o  o o-o o   o-o 
+                       
+                       
+#                                                                                 
+  o-o o  o     o o                      o-O-o o                       | |  o-o   
+  |   |  |     | |             o          |   |                      -O-O-   |   
+o-O   O--O o-o | | o-o        /|          |   O--o o-o o-o o-o        | |    O-o 
+  |   |  | |-' | | | |       o-O-         |   |  | |-' |   |-'       -O-O-   |   
+  o-o o  o o-o o o o-o         |          o   o  o o-o o   o-o        | |  o-o   
+                                                                                 
+                                                                                 
+#                                                                                     
+o        o o           o-O-o o                        0          o             --    
+|        | |             |   |                       /|          |            o  o o 
+O--o o-o | | o-o         |   O--o o-o o-o o-o       o |         -o- o-o         /  | 
+|  | |-' | | | |         |   |  | |-' |   |-'         |          |  | |        /   o 
+o  o o-o o o o-o         o   o  o o-o o   o-o       o-o-o        o  o-o       o--o   
+                                                                                   O 
+                                                                                     
+#                                                                        
+o   o      o-o   o-o  o-O-o       O        o        o-o  o        o   o 
+|\ /|      |  \     |   |        / \    o  |     o |     |        |\  | 
+| O |  oo  |   O  oo    |   o-o o---o  /|  |        o-o  O-o  o-o | \ | 
+|   | | |  |  /     |   |   |   |   | o-O- |     |     | |  | | | |  \| 
+o   o o-o- o-o   o-o  o-O-o o   o   o   |  O---o | o--o  o-o  o-o o   o 
+                                                                        
+                                                                        
+#           o o                                                                           
+  0        | |  | |  o--o    o           o  o                o--o           o  / \       
+ /|            -O-O- |       |           |  |                |   |   o     /  o   o      
+o |    oo       | |  O-o   o-O o   o   o O--O o  o o   o   o O-Oo   /|    o   |   | o--o 
+  |   | |      -O-O- |    |  |  \ / \ /  |  | |  |  \ / \ /  |  \  o-O-  /    o   o o--o 
+o-o-o o-o-      | |  o     o-o   o   o   o  o o--O   o   o   o   o   |  o      \ /       
+                                                 |                                       
+                                              o--o                                       
+#               o_ / 
+  o-o o o-o   /  o  
+  |   |   |         
+o-O   o   O-o       
+  |   |   |         
+  o-o o o-o         
+                    
+                    
+#                              o      
+O-o o     o-O  o              |      
+|    \      | / \                    
+|     o     |                    oo  
+|      \    |                   | |  
+O-o     o o-O     o---o         o-o- 
+                                     
+                                     
+#                  
+o--o   o-o  o--o  
+|   | o     |   | 
+O-Oo  |  -o O--o  
+|  \  o   | |   | 
+o   o  o-o  o--o  
+                  
+                  
+#                             
+      o      o    o-o    o   
+O o  /        \  o   o  / \  
+    O   o--o   O    /  o O-o 
+O o  \  o--o  /    o    \    
+  |   o      o           o-  
+                   O         
+                             
+#        o o               | |              o                               
+o       | |        | |   -O-O-      O      |  / \  o | o                 o 
+ \    o           -O-O- o | |   o  /    o    o   o  \|/   |             /  
+  o   |            | |   -O-O-    /    /|    |   | --O-- -o-           o   
+   \  o           -O-O-   | | o  /  o o-O-   o   o  /|\   |    o-o    /    
+    o              | |   -O-O-  O       |     \ /  o | o     o     O o     
+      O                   | |                                |             
+                                                                           
+#                                                                                                                                                            
+  O   o--o    o-o o-o   o--o o--o  o-o  o  o o-O-o     o o  o o     o   o o   o  o-o  o--o   o-o  o--o   o-o  o-O-o o   o o   o o       o o   o o   o o---o 
+ / \  |   |  /    |  \  |    |    o     |  |   |       | | /  |     |\ /| |\  | o   o |   | o   o |   | |       |   |   | |   | |       |  \ /   \ /     /  
+o---o O--o  O     |   O O-o  O-o  |  -o O--O   |       | OO   |     | O | | \ | |   | O--o  |   | O-Oo   o-o    |   |   | o   o o   o   o   O     O    -O-  
+|   | |   |  \    |  /  |    |    o   | |  |   |   \   o | \  |     |   | |  \| o   o |     o   O |  \      |   |   |   |  \ /   \ / \ /   / \    |    /    
+o   o o--o    o-o o-o   o--o o     o-o  o  o o-O-o  o-o  o  o O---o o   o o   o  o-o  o      o-O\ o   o o--o    o    o-o    o     o   o   o   o   o   o---o 
+                                                                                                                                                            
+                                                                                                                                                            
+#                                                                                                                             
+     o            o      o-o      o            o    o                                   o                                    
+     |            |      |        |    o     o | /  |                                   |                                    
+ oo  O-o   o-o  o-O o-o -O-  o--o O--o         OO   | o-O-o o-o  o-o o-o   o-o o-o o-o -o- o  o o   o o   o   o \ / o  o o-o 
+| |  |  | |    |  | |-'  |   |  | |  | |     o | \  | | | | |  | | | |  | |  | |    \   |  |  |  \ /   \ / \ /   o  |  |  /  
+o-o- o-o   o-o  o-o o-o  o   o--O o  o |     | o  o o o o o o  o o-o O-o   o-O o   o-o  o  o--o   o     o   o   / \ o--O o-o 
+                                |        o   o                       |       |                                         |     
+                             o--o         o-o                        o       o                                      o--o     
+#                                                                       
+                       --                       o                      
+     o                o  o                      |                      
+o-o     o-o o-o         /        o-O-o o-o o-o -o-       o  o o-o o  o 
+|  | | |    |-'        /         | | | |-' |-'  |        |  | | | |  | 
+o  o |  o-o o-o       o--o       o o o o-o o-o  o        o--O o-o o--o 
+                                                            |          
+                                                         o--o          
+#          o                                              
+o-O-o  o  |           o       o         o                
+  |    |              |       |         | /  o           
+  |   -o-   o-o       o   o   o o-o o-o OO     o-o  o--o 
+  |    |     \         \ / \ /  | | |   | \  | |  | |  | 
+o-O-o  o    o-o         o   o   o-o o   o  o | o  o o--O 
+                                                       | 
+                                                    o--o 
+#
